@@ -16,7 +16,7 @@ Shim to [paperjs](http://paperjs.org/) npm package.
 
 ## How to use
 
-Import Paper in you code%
+Import Paper in you code:
 ```es6
 import Ember from 'ember';
 import paper from 'paper';
