@@ -1,6 +1,6 @@
 # ember-cli-paper-shim
 
-This README outlines the details of collaborating on this Ember addon.
+Shim to [paperjs](http://paperjs.org/) npm package.
 
 ## Installation
 
@@ -13,6 +13,20 @@ This README outlines the details of collaborating on this Ember addon.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+## How to use
+
+Import Paper in you code%
+```es6
+import Ember from 'ember';
+import paper from 'paper';
+
+export default Ember.Object.extend({
+  point() {
+    return new paper.Point(0, 0)
+  }
+});
+```
 
 ## Running Tests
 
