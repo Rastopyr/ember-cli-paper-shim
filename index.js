@@ -4,6 +4,7 @@
 var path = require('path');
 var Funnel = require('broccoli-funnel');
 var MergeTrees = require('broccoli-merge-trees');
+
 module.exports = {
   name: 'ember-cli-paper-shim',
 
